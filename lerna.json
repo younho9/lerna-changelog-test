@@ -3,6 +3,7 @@
   "npmClient": "yarn",
   "packages": ["packages/*"],
   "useWorkspaces": true,
+  "changelogPreset": "angular",
   "command": {
     "version": {
       "allowBranch": "main"
