@@ -6,7 +6,8 @@
   "changelogPreset": "angular",
   "command": {
     "version": {
-      "allowBranch": "main"
+      "allowBranch": "main",
+      "message": "chore(release): publish"
     }
   }
 }
