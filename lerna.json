@@ -3,10 +3,49 @@
   "npmClient": "yarn",
   "packages": ["packages/*"],
   "useWorkspaces": true,
-  "changelogPreset": "angular",
   "command": {
     "version": {
       "conventionalCommits": true,
+      "changelogPreset": {
+        "name": "conventional-changelog-conventionalcommits",
+        "types": [
+          {
+            "type": "feat",
+            "section": ":rocket: New Features",
+            "hidden": false
+          },
+          {
+            "type": "fix",
+            "section": ":bug: Bug Fix",
+            "hidden": false
+          },
+          {
+            "type": "docs",
+            "section": ":memo: Documentation",
+            "hidden": false
+          },
+          {
+            "type": "style",
+            "section": ":sparkles: Styling",
+            "hidden": false
+          },
+          {
+            "type": "refactor",
+            "section": ":house: Code Refactoring",
+            "hidden": false
+          },
+          {
+            "type": "build",
+            "section": ":hammer: Build System",
+            "hidden": false
+          },
+          {
+            "type": "chore",
+            "section": ":mega: Other",
+            "hidden": false
+          }
+        ]
+      },
       "allowBranch": "main",
       "message": "chore(release): publish"
     }
