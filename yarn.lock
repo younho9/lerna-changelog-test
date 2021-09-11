@@ -4170,6 +4170,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"package-c@workspace:packages/package-c":
+  version: 0.0.0-use.local
+  resolution: "package-c@workspace:packages/package-c"
+  languageName: unknown
+  linkType: soft
+
 "pacote@npm:^11.2.6":
   version: 11.3.5
   resolution: "pacote@npm:11.3.5"
