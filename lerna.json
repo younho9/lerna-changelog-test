@@ -47,7 +47,7 @@
           }
         ]
       },
-      "allowBranch": "main",
+      "allowBranch": ["main", "independent"],
       "message": "chore(release): publish"
     }
   }
