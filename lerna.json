@@ -8,6 +8,7 @@
       "conventionalCommits": true,
       "changelogPreset": {
         "name": "conventional-changelog-conventionalcommits",
+        "header": "Hello World",
         "types": [
           {
             "type": "feat",
