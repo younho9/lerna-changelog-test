@@ -2,7 +2,7 @@
   "name": "package-c",
   "version": "1.2.0",
   "description": "> TODO: description",
-  "author": "Younho Choo <younho9.choo@gmail.com>",
+  "author": "Younho Choo <yo+github@younho9.com>",
   "homepage": "https://github.com/younho9/lerna-changelog-test#readme",
   "license": "ISC",
   "main": "lib/package-c.js",
